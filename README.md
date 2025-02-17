@@ -41,3 +41,6 @@ mol.writefile('cif', save_path)
       Trajectory File (.xyz format): Contains the atomic positions throughout the quenching process.
       Crystal Structure File (.cif format): Contains the final structure of the APC model, ready for further analysis.
 By following this procedure, you can generate APC models for various applications, including adsorption studies.
+
+## model optimization
+The modelOptimization module helps with training, evaluating, and optimizing regression models. The module supports comparing three regression models—RF, XGBoost, and ANN—and provides hyperparameter tuning for Random Forest using GridSearchCV. It also features tools for cross-validation to evaluate model performance and calculate R² scores, helping users choose the best model and fine-tune parameters for improved prediction performance.
